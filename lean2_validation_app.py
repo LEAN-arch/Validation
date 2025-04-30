@@ -17,7 +17,7 @@ if "audit" not in st.session_state:
     st.session_state.audit = {}
 
 # Sidebar: Navigation
-st.sidebar.image("FOBO2.png", width=40)
+st.sidebar.image("assets/FOBO2.png", width=40)
 st.sidebar.title("LEAN 2.0 Validation Toolkit")
 section = st.sidebar.radio(
     "Navigate",
